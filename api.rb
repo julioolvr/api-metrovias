@@ -2,6 +2,6 @@ require 'sinatra'
 require 'sinatra/jsonp'
 require './subtes'
 
-get '/' do
+get '/subtes' do
   JSONP get_status
 end
